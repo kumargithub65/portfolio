@@ -134,7 +134,7 @@
 /* BELOW 608px */
 /**************************/
 
-@media (max-width: 38em) {
+@media (max-width: 40em) {
   html {
     font-size: 50%;
   }
