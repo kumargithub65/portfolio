@@ -2,7 +2,7 @@
 /* BELOW 1280px */
 /**************************/
 
-@media (max-width: 80em) {
+@media (max-width: 1280px) {
   html {
     font-size: 58%;
   }
@@ -12,7 +12,7 @@
 /* BELOW 1024px */
 /**************************/
 
-@media (max-width: 64em) {
+@media (max-width: 1024px) {
   html {
     font-size: 52%;
   }
@@ -22,7 +22,7 @@
 /* BELOW 864px */
 /**************************/
 
-@media (max-width: 54em) {
+@media (max-width: 864px) {
   .nav {
     display: none;
     background-color: var(--clr-background-transparent);
@@ -134,10 +134,15 @@
 /* BELOW 608px */
 /**************************/
 
-@media (max-width: 40em) {
+@media (max-width: 608px) {
   html {
     font-size: 50%;
+    margin: 0px;
   }
+
+
+
+
 
   .section-subheading {
     font-size: 2.4rem;
@@ -149,7 +154,7 @@
   }
 
   h1 span {
-    font-size: 3.6rem;
+    font-size: 3.3rem;
   }
 
   .fz-74 {
@@ -168,10 +173,19 @@
   }
 
   .contact-form-container {
-    padding: 3.2rem;
+    /* padding: 50px; */
+    /* border: 1px solid red; */
+display: none;
+  }
+
+  footer{
+    /* border: 1px solid red; */
+
   }
 
   .thanks-container {
     padding: 3.2rem;
+    /* border: 1px solid red; */
+
   }
 }
